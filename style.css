@@ -1,0 +1,31 @@
+h1{
+    color:black;
+    font-size:xx-large;
+    margin: 10px;
+    text-align: center;
+    
+}
+p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 70px;
+}   
+body{
+    background-color: white;
+}
+.logoat{
+    display: flex;
+    width: 40px;
+    height: 80px;
+}
+.quemsomos{
+    margin: 25px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.servicos{
+    display: flexbox;
+    margin: 25px;
+    border-radius: 50px;
+}
