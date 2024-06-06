@@ -32,6 +32,7 @@ body{
     margin: 25px;
     background-color: gray;
     border-radius: 20px;
+    opacity: 80%;
 }
 .servicos{
     display: flexbox;
@@ -40,8 +41,8 @@ body{
 }
 
 #mainContato{
-    margin-top: 100px;
-    background-color: white;
+    margin-top: 30px;
+    background-color: black;
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 15px;
@@ -49,8 +50,20 @@ body{
     justify-content: center;
     display: flex;
     padding: 30px;
+    opacity: 80%;
 }
 
 #mapa{
     border-radius: 10px;
+}
+
+#infoContato a{
+    color: white;
+    margin: 40px;
+    display: flex;
+    direction: colum;
+    
+}
+h1{
+   text-align: center;
 }
