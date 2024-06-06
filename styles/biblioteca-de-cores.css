@@ -1,0 +1,38 @@
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #B3B3B3; }
+.My-Color-Theme-2-hex { color: #000000; }
+.My-Color-Theme-3-hex { color: #7F7F7F; }
+.My-Color-Theme-4-hex { color: #4C4C4C; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(179, 179, 179, 1); }
+.My-Color-Theme-2-rgba { color: rgba(0, 0, 0, 1); }
+.My-Color-Theme-3-rgba { color: rgba(127, 127, 127, 1); }
+.My-Color-Theme-4-rgba { color: rgba(76, 76, 76, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(0, 0, 70, 1); }
+.My-Color-Theme-2-hsla { color: hsla(0, 0, 0, 1); }
+.My-Color-Theme-3-hsla { color: hsla(0, 0, 49, 1); }
+.My-Color-Theme-4-hsla { color: hsla(0, 0, 29, 1); }
+
+/* Color Theme Swatches in Hex */
+.color-theme_logo-valeprint-1-hex { color: #F2059F; }
+.color-theme_logo-valeprint-2-hex { color: #049DD9; }
+.color-theme_logo-valeprint-3-hex { color: #F2B705; }
+.color-theme_logo-valeprint-4-hex { color: #F2F2F2; }
+.color-theme_logo-valeprint-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_logo-valeprint-1-rgba { color: rgba(242, 5, 159, 1); }
+.color-theme_logo-valeprint-2-rgba { color: rgba(4, 157, 217, 1); }
+.color-theme_logo-valeprint-3-rgba { color: rgba(242, 183, 5, 1); }
+.color-theme_logo-valeprint-4-rgba { color: rgba(242, 242, 242, 1); }
+.color-theme_logo-valeprint-5-rgba { color: rgba(13, 13, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_logo-valeprint-1-hsla { color: hsla(321, 95, 48, 1); }
+.color-theme_logo-valeprint-2-hsla { color: hsla(196, 96, 43, 1); }
+.color-theme_logo-valeprint-3-hsla { color: hsla(45, 95, 48, 1); }
+.color-theme_logo-valeprint-4-hsla { color: hsla(0, 0, 94, 1); }
+.color-theme_logo-valeprint-5-hsla { color: hsla(0, 0, 5, 1); }

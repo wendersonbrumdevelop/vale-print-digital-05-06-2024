@@ -38,3 +38,19 @@ body{
     margin: 25px;
     border-radius: 50px;
 }
+
+#mainContato{
+    margin-top: 100px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+
+#mapa{
+    border-radius: 10px;
+}
