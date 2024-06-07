@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('menu.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('menu-conteiner').innerHTML = data;
+            document.getElementById('menuConteiner').innerHTML = data;
         });
 });
