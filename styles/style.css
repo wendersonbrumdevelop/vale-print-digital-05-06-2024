@@ -42,11 +42,12 @@ body {
     background-color: white;
 }
 
-.quemsomos {
-    margin: 25px;
-    background-color: gray;
-    border-radius: 20px;
-    opacity: 80%;
+#quemSomos {
+    background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.47);
 }
 
 .servicos {
@@ -57,7 +58,7 @@ body {
 
 #mainContato {
     margin-top: 30px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 15px;
@@ -69,6 +70,14 @@ body {
 
 #mapa {
     border-radius: 10px;
+}
+
+#paginaContatos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #infoContato a {
@@ -86,6 +95,57 @@ header {
     padding-top: 150px;
 }
 
-header h1{
-    color: white;
+header h1 {
+    color: ghostwhite;
+    margin-bottom: 80px;
+}
+
+header img {
+    max-width: 50%;
+
+}
+
+#cabecalho {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.linhaBranca {
+    border: 0;
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#quemSomos h1 {
+    padding-top: 50px;
+}
+
+.whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50px;
+}
+
+.whatsappButton img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsappButton img:hover {
+    transform: scale(1.1);
+}
+
+#rodape {
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(144, 152, 152);
 }

@@ -47,6 +47,7 @@
 #menu li a:hover {
 	color: #0099CC;
 	background: #F2F2F2;
+	text-transform: uppercase;
 }
 #menu input {
 	display: none;
