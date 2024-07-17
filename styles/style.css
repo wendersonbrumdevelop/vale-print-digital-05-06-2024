@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #bodyIndex {
     width: 100vw;
     height: 100vh;
-    background-image: url('../src/imagens/fundo-preto.jpg');
+    background-image: url('../src/imagens/fundos/fundo-preto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +21,7 @@
 .bodySecundario {
     width: 100vw;
     height: 100vh;
-    background-image: url('../src/imagens/fundo-branco.jpg');
+    background-image: url('../src/imagens/fundos/fundo-branco.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,14 +44,6 @@ p {
 
 body {
     background-color: white;
-}
-
-#quemSomos {
-    background: rgba(255, 255, 255, 0.9);
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5.5px);
-	-webkit-backdrop-filter: blur(5px);
-	border: 1px solid rgba(255, 255, 255, 0.47);
 }
 
 .servicos {
@@ -89,20 +85,31 @@ body {
 
 h1 {
     text-align: center;
+    font-family: sans-serif;
+}
+
+#cabecalho h1 {
+    font-weight: 250;
+    font-size: 2.5rem;
 }
 
 header {
     padding-top: 150px;
 }
 
+#logoHeader {
+    width: 500px;
+}
+
 header h1 {
     color: ghostwhite;
     margin-bottom: 80px;
+    margin-top: 70px;
 }
 
 header img {
     max-width: 50%;
-
+    font-size: 1.5rem;
 }
 
 #cabecalho {
@@ -113,17 +120,78 @@ header img {
     align-items: center;
     text-align: center;
 }
+.missaoContainer {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    color: #fff; 
+    border-radius: 5px; 
+    margin-bottom: 30px;
+}
 
-.linhaBranca {
-    border: 0;
-    height: 2px;
-    background-color: white;
-    width: 100%;
-    margin: 20px 0;
+.missaoContainer h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400; 
+    font-size: 2rem; 
+    color: #fff; 
+    margin-top: 0; 
+    position: relative; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.missaoContainer h1::before,
+.missaoContainer h1::after {
+    content: ''; 
+    display: block; 
+    width: 100px; 
+    height: 1px; 
+    background-color: #fff; 
+    position: absolute; 
+    top: 70%; 
+    transform: translateY(-50%);
+}
+
+.missaoContainer h1::before {
+    left: 0; 
+}
+
+.missaoContainer h1::after {
+    right: 0; 
+}
+
+.missaoContainer .textoPrincipal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+    font-size: 1.5rem; 
+    text-align: justify;
+    margin-top: 10px; 
+}
+.textoPrincipal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#containerQuemSomos {
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotosApresentacao h1{
+    color: #f0f0f0;
+    
 }
 
 #quemSomos h1 {
     padding-top: 50px;
+    font-weight: 250;
+    font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 .whatsappButton {
@@ -148,4 +216,199 @@ header img {
     height: 100px;
     padding: 20px;
     background-color: rgb(144, 152, 152);
+}
+
+.divisorSecao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linha {
+    flex: 1;
+    height: 2px;
+    background-color: #b3b3b3;
+}
+
+.logoDivisor {
+    margin: 0 20px;
+    max-width: 80px;
+}
+
+#principalSite {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    padding-bottom: 40px;
+}
+
+#fotosApresentacao {
+    display: flex;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    /* From https://css.glass */
+    background: #333;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.7px);
+    -webkit-backdrop-filter: blur(19.7px);
+    align-items: center;
+}
+
+#fotosApresentacao p {
+    color: #f0f0f0;
+}
+
+#carrosselQuemSomos .carrossel {
+    /* Estilos específicos para o carrossel na página Quem Somos */
+    border-radius: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    /* Exemplo de estilo adicional */
+    width: 500px;
+}
+
+#carrosselQuemSomos .carrossel li {
+    min-width: 100%;
+    text-align: center;
+    /* Exemplo de estilo adicional */
+}
+
+#carrosselQuemSomos .carrossel li img {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura da div */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+    /* Remove espaços em branco ao redor da imagem */
+}
+
+#contatoInicio {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contatoInicio p {
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+    font-size: 2rem; 
+    margin-top: 0; 
+    position: relative; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contatoInicio h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400; 
+    font-size: 3rem; 
+    color: #fff; 
+    margin-top: 0; 
+    position: relative; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#botaoContato {
+    padding: 20px 50px;
+    background-color: #007bff;
+    font-weight: 200; 
+    color: #fff;
+    border-radius: 5px;
+    font-size: 2em;
+    cursor: pointer;
+    border-color: #f0f0f0;
+    margin-top: 30px;
+}
+
+#botaoContato:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: rgba(161, 161, 161, 0.77);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.4px);
+    -webkit-backdrop-filter: blur(15.4px);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colfooter {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.colfooter h3 {
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.colfooter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.colfooter ul li {
+    margin-bottom: 10px;
+}
+
+.colfooter ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.colfooter ul li a:hover {
+    color: #000000;
+    /* Cor quando hover */
+}
+
+.colfooter p {
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-left: 30px;
+}
+
+.colfooter img {
+    width: 15px;
+    margin-right: 10px;
+    opacity: 80%;
+}
+
+.mainFooterCopy p {
+    margin: 0;
+}
+
+.mainFooterCopy {
+    margin-top: 30px;
+    opacity: 50%;
 }

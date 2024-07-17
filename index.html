@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/menu.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/servicos.css">
   <link rel="stylesheet" href="footer.css">
 
   <title>vale print digital</title>
 
-  <link rel="icon" href="src/imagens/iconLogo.png" />
+  <link rel="icon" href="src/imagens/logos/iconLogo.png" />
 
 </head>
 
@@ -18,124 +19,160 @@
 
   <article>
     <!-- Menu de navegação -->
-    <div id="menuConteiner"></div>
-    <script src="codigos/menu.js"></script>
+    <nav id='menu'>
+      <a href="#">
+        <img id="logoat" src="src/imagens/logos/logo-valeprint-removebg-preview.png" alt="">
+      </a>
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+      <ul>
+        <li><a href='#'>inicio</a></li>
+        </li>
+        <li><a href="#quemSomos">quem somos</a></li>
+        <li><a class='dropdown-arrow' href='serviços.html'>serviços</a>
+          <ul class='sub-menus'>
+            <li><a href='letreiros.html'>letreiro</a></li>
+            <li><a href='letreiros.html'>placa</a></li>
+            <li><a href='letreiros.html'>grafica</a></li>
+            <li><a href='letreiros.htmlhttp://'>fachadas em acm</a></li>
+            <li><a href='letreiros.html'>adesivos</a></li>
+            <li><a href='letreiros.html'>plotagem de veiculos</a></li>
+          </ul>
+        </li>
+        <li><a href='contato.html'>contato</a></li>
+      </ul>
+    </nav>
   </article>
 
   <!-- Parte do conteudo -->
+  <script src="codigos/menu.js"></script>
   <main>
     <!-- Cabeçalho da pagina -->
     <header>
       <!-- Adicionar informação de destaque da pagina -->
       <div id="cabecalho">
-        <img id="logoHeader" src="src/imagens/logo-valeprint-branco.png">
-        <h1>Pioneira na Arte da boa impressão.</h1>
-        <hr class="linhaBranca">
+        <img id="logoHeader" src="src/imagens/logos/logo-valeprint-branco.png">
+        <h1>A nossa colaboração é para o seu sucesso!</h1>
       </div>
     </header>
 
     <!-- Seção de apresentação da empresa -->
-    <section>
+    <section id="principalSite">
+      <script src="codigos/menu.js"></script>
+      <article class="divisorSecao">
+        <div class="linha"></div>
+        <img src="src/imagens/logos/78150705315.png" alt="Logo ValePrint" class="logoDivisor">
+        <div class="linha"></div>
+      </article>
       <div id="quemSomos">
-        <h1> Quem somos </h1>
-        <p>
-          Fundada em Itabira, A VALEPRINT conta com diversos
-          profissionais experientes e dedicados.
-          Desde 2011 já treinamos vários outros profissionais
-          que hoje atuam nas próprias empresas. <br>
-          Atualmente temos espaço de produção
-          independente, colaboradores realmente comprometidos
-          em desenvolver, criar, fabricar e executar
-          qualquer layout, projeto ou impressão. <br>
-          Nossa Missão é fornecer as soluções mais viáveis
-          em Placas, Totens, Fachadas e Gráfica,
-          com qualidade e entrega dentro do prazo. <br>
-          Visto que a qualidade é fundamental, a nossa
-          visão é espelhada nas mais conceituadas e modernas
-          empresas do ramo. Assim, conseguimos um parâmetro
-          fundamental na qualidade dos nosso serviços. <br>
-          Os nossos valores são baseados na Fé Cristã.
+        <div id="containerQuemSomos">
+          <h1> Quem somos </h1>
+          <p class="textoPrincipal">
+            Fundada em Itabira, a <b>VALEPRINT</b> conta com diversos
+            profissionais experientes e dedicados.
+            Desde 2011 já treinamos vários outros profissionais
+            que hoje atuam nas próprias empresas. Atualmente temos espaço de produção
+            independente, colaboradores realmente comprometidos
+            em desenvolver, criar, fabricar e executar
+            qualquer layout, projeto ou impressão.
+          </p>
+        </div>
+        <div id="fotosApresentacao">
+          <div class="missaoContainer">
+            <h1>Nossa Missão</h1>
+            <p class="textoPrincipal">
+              Nossa Missão é fornecer as soluções mais viáveis
+              em Placas, Totens, Fachadas e Gráfica,
+              com qualidade e entrega dentro do prazo. <br><br>
+              Visto que a qualidade é fundamental, a nossa
+              visão é espelhada nas mais conceituadas e modernas
+              empresas do ramo. Assim, conseguimos um parâmetro
+              fundamental na qualidade dos nosso serviços. <br>
+            </p>
+          </div>
+          <div id="carrosselQuemSomos">
+            <ul class="carrossel">
+              <li><img src="src/imagens/carrossel/img1.png"></li>
+              <li><img src="src/imagens/carrossel/img2.png"></li>
+              <li><img src="src/imagens/carrossel/img3.png"></li>
+              <li><img src="src/imagens/carrossel/img4.png"></li>
+              <li><img src="src/imagens/carrossel/img5.png"></li>
+              <li><img src="src/imagens/carrossel/img6.png"></li>
+              <li><img src="src/imagens/carrossel/img7.png"></li>
+              <li><img src="src/imagens/carrossel/img8.png"></li>
+              <li><img src="src/imagens/carrossel/img9.png"></li>
+              <li><img src="src/imagens/carrossel/img10.png"></li>
+              <li><img src="src/imagens/carrossel/img11.png"></li>
+              <li><img src="src/imagens/carrossel/img12.png"></li>
+              <li><img src="src/imagens/carrossel/img13.png"></li>
+              <li><img src="src/imagens/carrossel/img14.png"></li>
+              <li><img src="src/imagens/carrossel/img15.png"></li>
+              <li><img src="src/imagens/carrossel/img16.png"></li>
+              <li><img src="src/imagens/carrossel/img17.png"></li>
+              <li><img src="src/imagens/carrossel/img18.png"></li>
+            </ul>
+          </div>
+        </div>
+        <p class="textoPrincipal">
+          Os nossos valores são baseados na Fé Cristã.<br>
           Honrando nossos compromissos, atendendo
-          com maestria e honestidade e acima de tudo: <br>
+          com maestria e honestidade e acima de tudo:<br>
           Bom Senso. <br>
-          Seja bem vindo a um mundo de opções!
         </p>
       </div>
     </section>
 
     <!-- Seção de formulario de pedido de contato -->
-    <section>
-
+    <section id="contatoInicio">
+      <h1>Seja bem vindo a um mundo de opções!</h1>
+      <p>Entre em contato para que possamos te ajudar.</p>
+      <button id="botaoContato" type="button">Contato</button>
     </section>
 
-    <!-- Seção de galeria de fotos dos serviços -->
-    <section>
-
-    </section>
-
-    <!-- Seção de informações de contato do cliente -->
-    
-    <section id="paginaContatos">
-      <div id="mainContato">
-      <div id="mapaContato">
-        <iframe id="mapa"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.6963004726713!2d-43.22754528899768!3d-19.640277481607566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5a108cfdb1359%3A0x1a89dbcd2166e068!2sR.%20Candidopolis%2C%20334%20-%20%C3%81gua%20Fresca%2C%20Itabira%20-%20MG%2C%2035900-445!5e0!3m2!1spt-BR!2sbr!4v1717699317117!5m2!1spt-BR!2sbr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-      <div id="infoContato">
-        <a
-          href="https://api.whatsapp.com/send/?phone=5531985400853&text=preciso+de+um+or%C3%A7amento+ou+tirar+uma+duvida+sobre+o+trabalhos+de+voces+&type=phone_number&app_absent=0"><img
-            src="src/imagens/whats logo.png" alt="">31985400853</a>
-        <a href="https://www.instagram.com/valeprintt/"> <img src="src/imagens/instagramlogo.png" alt="">valeprintt</a>
-      </div>
-    </div>
-    </section>
- 
 
     <!-- Botão do whatsApp -->
     <section>
-      <a href="https://api.whatsapp.com/send/?phone=5531985400853&text=preciso+de+um+or%C3%A7amento+ou+tirar+uma+duvida+sobre+o+trabalhos+de+voces+&type=phone_number&app_absent=0" class="whatsappButton" target="_blank">
-        <img src="src/imagens/icons8-whatsapp-48.png" alt="WhatsApp">
-    </a>
-    
+      <a href="https://api.whatsapp.com/send/?phone=5531985400853&text=preciso+de+um+or%C3%A7amento+ou+tirar+uma+duvida+sobre+o+trabalhos+de+voces+&type=phone_number&app_absent=0"
+        class="whatsappButton" target="_blank">
+        <img src="src/imagens/icones/whats-logo.png" alt="WhatsApp">
+      </a>
+
     </section>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="codigos/carrossel.js"></script>
+  <script src="codigos/botoes.js"></script>
 
-  <footer class="main_footer container">
-    
-    <div class="content">
-        <div class="colfooter">
-            
-            <h3 class="titleFooter"> Menu</h3>
-            
-            <ul>
-            
-              <li><a href="#" title="inicio">inicio</a></li>  <!-- vai para o inicio da pagina -->
-              <li><a href="#quemSomos" title="quem somos">quem somos</a></li> <!-- vai para parte de quem somos -->
-              <li><a href="https://api.whatsapp.com/send/?phone=5531985400853&text=preciso+de+um+or%C3%A7amento+ou+tirar+uma+duvida+sobre+o+trabalhos+de+voces+&type=phone_number&app_absent=0" title="Fale Conosco">Fale Conosco</a></li> <!-- encaminhado para whatsApp -->
-              <li><a href="#mapaContato" title="localização">localização</a></li> <!-- vai para parte do mapa -->
-            </ul>
-        </div><!--Col Footer 1-->        
-        <div class="colfooter">
-           
-           <h3 class="titleFooter"> Contato</h3>
-           <p><i class="icon icon-mail"></i> jottasantosita@gmail.com</p>
-           <p><i class="icon icon-phone"></i> 31 98540-0853</p>
-        
-        </div><!--Col Footer 3-->
-        <div class="clear"></div>
-    
-    </div><!--Contant-->
-    <div class="main_footer_copy">
-        
-        <p class="m-b-footer"> valeprintt - 2024, todos os direitos reservados.</p> 
-        <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="desenvolvedores">Wenderson Brum / Juliana / Maria Eduarda</a></p>
-    
-    </div>
+  <footer>
+    <div class="footerContainer">
+        <div class="footerLinks">
+            <div class="colfooter">
+                <h3 class="titleFooter">Menu</h3>
+                <ul>
+                    <li><a href="#" title="inicio">Início</a></li>
+                    <li><a href="#quemSomos" title="quem somos">Quem Somos</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=5531985400853&text=preciso+de+um+or%C3%A7amento+ou+tirar+uma+duvida+sobre+o+trabalhos+de+voces+&type=phone_number&app_absent=0" title="Fale Conosco">Fale Conosco</a></li>
+                    <li><a href="serviços.html" title="serviços">Serviços</a></li>
+                </ul>
+            </div>
+            <div class="colfooter">
+                <h3 class="titleFooter">Contato</h3>
+                <ul>
+                  <li><a href="mailto:jottasantosita@gmail.com"><img src="src/imagens/icones/envelope.png" alt="Ícone de e-mail"> jottasantosita@gmail.com</a></li>
+                  <li><a href="mailto:jottasantosita@gmail.com"><img src="src/imagens/icones/chamada-telefonica.png" alt="Ícone de e-mail"> (31) 98540-0853</a></li>
+                  <li><a href="https://www.instagram.com/valeprintt/"><img src="src/imagens/icones/instagram.png" alt="Ícone de e-mail"> @valeprintt</a></li>
+                  <li><a href="contato.html"><img src="src/imagens/icones/marcador.png" alt="Ícone de e-mail"> R. Candidopolis, 334 - Água Fresca, Itabira - MG, 35900-445</a></li>
+                </ul>
 
-  </footer>
+            </div>
+        </div><!-- .footerLinks -->
+
+        <div class="mainFooterCopy">
+            <p>valeprint - 2024, todos os direitos reservados.</p>
+            <p >Desenvolvido por: <a href="#" title="desenvolvedores">Wenderson Brum / Juliana / Maria Eduarda</a></p>
+        </div><!-- .main_footer_copy -->
+    </div><!-- .footerContainer -->
+</footer>
+
 
 </body>
 

@@ -30,7 +30,7 @@
 	position: relative;
 	padding-top: 5px;
 }
-#menu a {
+#menu ul a {
 	display: block;
 	line-height: 45px;
 	padding: 0 14px;
@@ -97,6 +97,7 @@
 	color: #444444;
 }
 #logoat {
+	max-width: 180px;
 	width: auto;
 	height: auto;
 }
