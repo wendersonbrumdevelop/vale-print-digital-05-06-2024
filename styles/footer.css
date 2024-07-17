@@ -1,0 +1,92 @@
+.corrigindoFundo {
+    background-image: url('../src/imagens/fundos/fundo-preto.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem de fundo */
+            color: white;
+}
+footer {
+    background: rgba(120, 118, 118, 0.77);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.4px);
+    -webkit-backdrop-filter: blur(15.4px);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colfooter {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.colfooter h3 {
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #88c1fe;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+
+.colfooter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.colfooter ul li {
+    margin-bottom: 10px;
+}
+
+.colfooter ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+
+.colfooter ul li a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    /* Cor quando hover */
+}
+
+.colfooter p {
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-left: 30px;
+}
+
+.colfooter img {
+    width: 20px;
+    margin-right: 10px;
+    filter: invert(100%);
+    vertical-align: middle;
+}
+
+.colfooter img:hover {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.mainFooterCopy p {
+    margin: 0;
+}
+
+.mainFooterCopy {
+    margin-top: 30px;
+    opacity: 50%;
+}

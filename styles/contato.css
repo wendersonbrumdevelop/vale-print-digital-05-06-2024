@@ -1,0 +1,88 @@
+html {
+    margin: 0;
+
+}
+
+#mainContato {
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    /* From https://css.glass */
+    background: rgba(92, 91, 91, 0.63);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+}
+
+#mapa {
+    border-radius: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#paginaContatos {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 160px;
+    padding-bottom: 50px;
+    
+}
+
+#infoContato a {
+    color: white;
+    margin: 40px;
+    display: flex;
+    direction: colum;
+    text-decoration: none;
+    font-weight: 150px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+#tituloContato {
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+
+    
+}
+
+#infoContato img {
+    width: 40px;
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+#whats {
+    list-style: none;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #007BFF; /* Fundo azul */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+.whatsapp-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+}

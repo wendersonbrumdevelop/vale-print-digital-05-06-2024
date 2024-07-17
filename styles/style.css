@@ -42,45 +42,10 @@ p {
     margin: 70px;
 }
 
-body {
-    background-color: white;
-}
-
 .servicos {
     display: flexbox;
     margin: 25px;
     border-radius: 50px;
-}
-
-#mainContato {
-    margin-top: 30px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 30px;
-}
-
-#mapa {
-    border-radius: 10px;
-}
-
-#paginaContatos {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#infoContato a {
-    color: white;
-    margin: 40px;
-    display: flex;
-    direction: colum;
 }
 
 h1 {
@@ -212,12 +177,6 @@ header img {
     transform: scale(1.1);
 }
 
-#rodape {
-    height: 100px;
-    padding: 20px;
-    background-color: rgb(144, 152, 152);
-}
-
 .divisorSecao {
     display: flex;
     align-items: center;
@@ -318,6 +277,7 @@ header img {
     position: relative; 
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 #botaoContato {
@@ -330,85 +290,20 @@ header img {
     cursor: pointer;
     border-color: #f0f0f0;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 #botaoContato:hover {
     background-color: #0056b3;
 }
 
-footer {
-    background: rgba(161, 161, 161, 0.77);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15.4px);
-    -webkit-backdrop-filter: blur(15.4px);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+.section-divider8 {
+    width: 100%;
+    height: 50px;
+    display: block;
 }
 
-.footerContainer {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.footerLinks {
-    display: flex;
-    justify-content: space-between;
-}
-
-.colfooter {
-    flex: 1;
-    text-align: left;
-    margin-right: 20px;
-}
-
-.colfooter h3 {
-    color: #fff;
-    font-size: 1.2em;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 5px;
-}
-
-.colfooter ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.colfooter ul li {
-    margin-bottom: 10px;
-}
-
-.colfooter ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.colfooter ul li a:hover {
-    color: #000000;
-    /* Cor quando hover */
-}
-
-.colfooter p {
-    position: relative;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-
-    padding-left: 30px;
-}
-
-.colfooter img {
-    width: 15px;
-    margin-right: 10px;
-    opacity: 80%;
-}
-
-.mainFooterCopy p {
-    margin: 0;
-}
-
-.mainFooterCopy {
-    margin-top: 30px;
-    opacity: 50%;
+.section-divider {
+    width: 100%;
+    display: block;
 }
