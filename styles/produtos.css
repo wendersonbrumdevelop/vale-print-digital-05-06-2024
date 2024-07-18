@@ -1,0 +1,228 @@
+html {
+    margin: 0;
+}
+
+.containerProdutos {
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    /* From https://css.glass */
+    background: rgba(11, 11, 11, 0.738);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    margin-top: 50PX;
+}
+
+#paginaContatos {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#tabelaProdutos {
+    margin: 20px;
+    padding: 0;
+}
+
+#tabelaProdutos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.produto-section {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#tabelaProdutos h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto {
+    text-align: center;
+    width: 30%;
+    /* Ajuste conforme necessário */
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 10px;
+}
+
+.produto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.produto a:hover {
+    text-decoration: underline;
+}
+
+
+#botaoOrcamento a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#botaoOrcamento img {
+    width: 40px;
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+#botaoOrcamento {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #007BFF;
+    /* Fundo azul */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    max-width: 450px;
+}
+
+.whatsapp-button:hover {
+    background-color: #0056b3;
+    /* Azul mais escuro no hover */
+}
+
+.whatsapp-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    position: relative;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto .text-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(132, 132, 132);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#secaoEspecial h1::before,
+#secaoEspecial h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 4px;
+    background: #fff;
+}
+
+#secaoEspecial h1::before {
+    left: -200px;
+}
+
+#secaoEspecial h1::after {
+    right: -200px;
+}
+
+.section-title h1 {
+    position: relative;
+    padding: 0 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-title h1::before,
+.section-title h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    height: 4px;
+    background: #fff;
+}
+
+.section-title h1::before {
+    left: -300px;
+}
+
+.section-title h1::after {
+    right: -300px;
+}
