@@ -12,9 +12,8 @@ html {
     display: flex;
     padding: 30px;
     /* From https://css.glass */
-    background: rgba(11, 11, 11, 0.738);
+    background: rgba(11, 11, 11, 0.896);
     border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.5px);
     -webkit-backdrop-filter: blur(9.5px);
     margin-top: 50PX;
@@ -46,12 +45,23 @@ html {
     border-radius: 8px;
 }
 
+#mainProdutos h1 {
+    font-size: 3.5rem;
+    color: #000000c0;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+
 #tabelaProdutos h1 {
     font-size: 3rem;
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 30px;
     margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .produtos {
@@ -164,15 +174,14 @@ p {
     left: 50%;
     transform: translateX(-50%);
     background: rgb(132, 132, 132);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 0;
     text-align: center;
     justify-content: center;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
     margin-bottom: 4px;
     font-size: 20px;
 }
@@ -190,7 +199,7 @@ p {
     position: absolute;
     top: 50%;
     width: 200px;
-    height: 4px;
+    height: 2px;
     background: #fff;
 }
 
@@ -215,7 +224,7 @@ p {
     position: absolute;
     top: 50%;
     width: 300px;
-    height: 4px;
+    height: 2px;
     background: #fff;
 }
 
